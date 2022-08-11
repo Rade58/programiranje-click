@@ -12,6 +12,8 @@ export const NavigationLink = ({children, to}) => {
     to={to}
     // I GUESS YOU CAN ADD FUNCTION FOR AS A className
     // FOR THE NavLink COMPONENT
+    // HEWRE isActive MEANS THAT IT IS GOING TO BE true
+    // WHEN ROUTE IS CURRENTLY VISITED
     className={({isActive}) => {
       return isActive? "bg-teal-900 hover:bg-teal-400":
       "bg-stone-700 hover:bg-stone-600"
