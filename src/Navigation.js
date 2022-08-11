@@ -2,7 +2,7 @@ import {NavLink} from 'react-router-dom'
 
 
 export const Navigation = ({children}) => {
-  return <nav className='flex flex-col border-r-w border-cyan-600 h-full'>
+  return <nav className='col-span-3 flex flex-col border-r-w border-cyan-600 h-full'>
     {children}
   </nav>
 }
