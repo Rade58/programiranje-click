@@ -13,8 +13,8 @@ export const NavigationLink = ({children, to}) => {
     // I GUESS YOU CAN ADD FUNCTION FOR AS A className
     // FOR THE NavLink COMPONENT
     className={({isActive}) => {
-      return isActive? "bg-teal-800 hover:bg-teal-100":
-      "bg-cyan-300 hover:bg-cyan-800"
+      return isActive? "bg-teal-900 hover:bg-teal-400":
+      "bg-stone-700 hover:bg-stone-600"
     }}
   >
     <article className='w-full p-4'>
