@@ -6,7 +6,7 @@ import {Page} from './Page'
 
 function Application() {
   
-  return <main className='h-screen bg-indigo-800 text-zinc-100'>
+  return <main className='h-screen bg-stone-800 text-zinc-100'>
     <h1 className='text-3xl font-bold bg-stone-600 p-4 border-b-2 border-stone-200'>
       Great Time To Find Pizza
     </h1>

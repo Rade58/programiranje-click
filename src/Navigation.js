@@ -16,7 +16,7 @@ export const NavigationLink = ({children, to}) => {
     // WHEN ROUTE IS CURRENTLY VISITED
     className={({isActive}) => {
       return isActive? "bg-stone-900 hover:bg-stone-400":
-      "bg-indigo-700 hover:bg-indigo-600"
+      "bg-stone-700 hover:bg-stone-600"
     }}
   >
     <article className='w-full p-4'>
